@@ -1,4 +1,4 @@
-@Library('piper-lib-os') _
+
 pipeline {
   libraries {
     lib('piper-lib-os')
@@ -8,6 +8,7 @@ pipeline {
     stage('CreateRepository') {
       steps {
         // One or more steps need to be included within the steps block.
+        @Library('piper-lib-os')
         gctsCreateRepository script: this
       }
     }
@@ -15,6 +16,7 @@ pipeline {
     stage('CloneRepository') {
       steps {
         // One or more steps need to be included within the steps block.
+        @Library('piper-lib-os')
         gctsCloneRepository script: this
       }
     }
