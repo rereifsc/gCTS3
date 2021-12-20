@@ -1,8 +1,5 @@
 
 pipeline {
-  libraries {
-    lib('piper-lib-os')
-  }
   agent any
   stages {
     stage('CreateRepository') {
