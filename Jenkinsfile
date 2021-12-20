@@ -17,7 +17,7 @@ pipeline {
         gctsCloneRepository script: this
       }
     }
-
+  }
 }
 
 
