@@ -1,0 +1,14 @@
+general:
+steps:
+  gctsCloneRepository:
+    host: 'https://slaa9114.btcdev.btc-ag.int:44300'
+    client: '100'
+    abapCredentialsId: 'ABAPUserPasswordCredentialsId'
+    repository: 'matthiasatbtc-gcts3'
+  gctsCreateRepository:
+    host: 'https://slaa9114.btcdev.btc-ag.int:44300'
+    client: '100'
+    abapCredentialsId: 'ABAPUserPasswordCredentialsId'
+    repository: 'matthiasatbtc-gcts3'
+    remoteRepositoryURL: 'https://github.com/MatthiasATBTC/gCTS3'
+    vSID: 'GTG'
